@@ -3,7 +3,6 @@
 #  node and python.
 #
 FROM node:10
-LABEL maintainer="robipolli@gmail.com"
 
 # Install python-yaml.
 RUN apt-get update && apt-get install python-yaml
